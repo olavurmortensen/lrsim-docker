@@ -19,9 +19,9 @@ The compiled LRSIM directory is compressed and copied out of the container. `Doc
 To use this LRSIM build, either pull one of the Docker images and run LRSIM in a container:
 
 ```
-docker pull olavurmortensen/lrsim
+docker pull olavurmortensen/lrsim:make  # Ubuntu 16.04 that compiles LRSIM.
 OR
-docker pull olavurmortensen/lrsim:precompiled
+docker pull olavurmortensen/lrsim:precomp  # Ubuntu 18.04 with LRSIM compiled in lrsim:make.
 ```
 
 Or download and decompress the compiled version:
